@@ -6,12 +6,21 @@ function App() {
 
   const[posts, setPosts] = useState({name:'', body:'', likedStatus})
 
-  return (
     <div>
-      <header>
-      </header>
+      function displayForms(){
+        <form>
+          <label>
+            Name:<input type={"text"}
+          </label>
+        </form>
     </div>
-  );
+    <div>
+        <form>
+          <label>
+            Post:<input type={"text"}
+          </label>
+        </form>
+    </div>
 }
 
 export default App;
