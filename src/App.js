@@ -1,26 +1,15 @@
 import './App.css';
 import React, { useState } from 'react';
-
+import DisplayForms from './Components/DisplayForms/DisplayForms';
 
 function App() {
 
-  const[posts, setPosts] = useState({name:'', body:'', likedStatus})
+  const[posts, setPosts] = useState({name:'', body:'', likedStatus:true})
 
-    <div>
-      function displayForms(){
-        <form>
-          <label>
-            Name:<input type={"text"}
-          </label>
-        </form>
-    </div>
-    <div>
-        <form>
-          <label>
-            Post:<input type={"text"}
-          </label>
-        </form>
-    </div>
-}
+  return(
+    <>
+   <DisplayForms parentEntries= {posts}/>
+    </>
+)}
 
 export default App;
