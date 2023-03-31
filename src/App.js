@@ -15,7 +15,9 @@ function createNewPost(newPost){
       <NewPostForm createNewPost={createNewPost} />
       <PostList posts={posts}/>
 <button type="Like" likedStatus = "inactive">Like</button>
+<button type="Dislike" dislikedStatus = "inactive">Dislike</button>
     </div>
+
   );
 }
 
