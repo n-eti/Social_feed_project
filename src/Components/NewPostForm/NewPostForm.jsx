@@ -8,6 +8,7 @@ const NewPostForm = (props) => {
     event.preventDefault();
     let newEntry = { name: name, post: post };
     console.log(newEntry);
+    props.createNewPost(newEntry)
   }
 
   return (

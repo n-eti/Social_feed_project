@@ -9,7 +9,7 @@ const PostList = (props) => {
         return (
           <div>
             <h3>{post.name}</h3>
-            <p>{post.body}</p>
+            <p>{post.post}</p>
           </div>
         )
       })}
